@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(123, 211, 229);
+    font-size: medium;
+    
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.home {
+    clear: left;
+    
+    background-color: rgb(90, 150, 203);
+    height: 20px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+
+.header {
+    background-color: grey;
+    height: 80px;
+    border-bottom: 0px;
+}
+
+.nav {
+    display: grid;
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+#galleryofimages {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    
+}
+
+#travelimages {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    
+}
+
+.links{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+    font-size: 2em;
+    
+    color: aliceblue;
+}
+
+#logo {
+    padding-top: 0px;
+    height: 80px;
+    margin: 0px;    
+    width: 80px;
+    position: absolute;
+    left: 0%;
+    
+
+}
+
+#logo {
+    position: absolute;
+    left: 0%;
+}
+
+.homeheading{
+    text-align: center;
+    
+}
+
+.photoheading{
+    
+    text-align: center;
+    margin-top: 100px;
+}
+
+.travelheading {
+    text-align: center;
+    margin-top: 100px;
+}
+.photolibrary {
+    margin-top: 60px;
+    background-color: aqua;
+    margin: 10px;
+    border: 1px solid black;
+    float:left;
+    width:200px
+    
+
+}
+
+.desc {
+    text-align: center
+}
+
+.gallery img{
+    width:100%
+    
+}
+
+.photosection{
+    background-color: blue;
+    margin-top: 200px;
+}
+
+.about{
+    background-color: rgb(186, 211, 214);
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0px;
+    clear: left;
+    
+    padding-bottom: 10px;
+
+}
+
+.aboutheading {
+    text-align:left
+    
+}
