@@ -1,14 +1,40 @@
+
 .home{
     clear: left;
     
     background-color: rgb(196, 106, 49);
     height: 20px;
-    padding-bottom: 500px;
+    padding-bottom: 600px;
     padding-right: 100px;
     padding-left: 30px;
     padding-top: 20px;
     
 
+}
+
+@media screen and (max-width: 1200px ){
+    .home {
+        padding-bottom: 1000px;
+    }
+    
+}
+
+
+.cover{
+    float: right;
+    width: 100%; 
+    max-width: fit-content; 
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+.secondcarddeck{
+    padding-top: 20px;
+}
+
+.menuheading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 .gridcontainer{
@@ -20,6 +46,7 @@
 }
 
 .underline{
+    text-align: center;
 
 }
 
